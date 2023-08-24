@@ -1,0 +1,16 @@
+description: Ultralytics YOLOv8s-pose model trained on Triangle_215.yaml
+author: Ultralytics
+license: AGPL-3.0 https://ultralytics.com/license
+date: '2023-08-22T17:43:21.526912'
+version: 8.0.155
+stride: 32
+task: pose
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: hand
+kpt_shape:
+- 10
+- 3
